@@ -8,9 +8,16 @@
   "author": "Luis Daniel Caraballo Castillo <luisred61@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "start":"live-server"
-  }, 
+    "start": "parcel index.html"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }
